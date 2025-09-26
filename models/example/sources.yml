@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: named
+    database: DBT
+    schema : DBT_SIVAVATUK661
+    tables: 
+      - name: bike
+      - name: cars
